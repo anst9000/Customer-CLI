@@ -1,0 +1,23 @@
+{
+  "name": "customer-cli",
+  "version": "1.0.0",
+  "description": "Customer management CLI",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": "./commands.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anders Stromberg <coltlaboy@yahoo.se>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^6.1.0",
+    "inquirer": "^7.3.3",
+    "mongoose": "^5.10.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
